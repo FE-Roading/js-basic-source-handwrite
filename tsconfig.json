@@ -18,9 +18,14 @@
     "jsx": "preserve",
     "lib": ["esnext", "dom"],
     "types": ["jest", "puppeteer", "node"],
-    "rootDir": "."
+    "rootDir": ".",
+    "typeRoots": [
+      "node_modules/@types",
+      "types"
+    ]
   },
   "include": [
     "src/*",
+    "types/*"
   ]
 }

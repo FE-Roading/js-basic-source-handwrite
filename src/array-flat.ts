@@ -1,3 +1,5 @@
+// 以下是三种数组扁平化的操作方法
+
 // ES2019 flat
 export function flatten(arr: unknown[]): unknown[] {
   return Array.prototype.flat.call(arr, Number.MAX_SAFE_INTEGER)
